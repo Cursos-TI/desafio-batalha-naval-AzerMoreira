@@ -20,7 +20,13 @@ int main() {
         tabuleiro[7][5] = 3; // Navio 2
         tabuleiro[7][6] = 3; // Navio 2
         tabuleiro[7][7] = 3; // Navio 2
-    
+        tabuleiro[1][1] = 3; // Navio 3
+        tabuleiro[2][2] = 3; // Navio 3
+        tabuleiro[3][3] = 3; // Navio 3
+        tabuleiro[9][0] = 3; // Navio 4
+        tabuleiro[8][1] = 3; // Navio 4
+        tabuleiro[7][2] = 3; // Navio 4  
+
         // Exibindo o tabuleiro
         printf("  0 1 2 3 4 5 6 7 8 9\n");
         for (int i = 0; i < 10; i++) {
