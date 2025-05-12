@@ -14,18 +14,27 @@ int main() {
    };
     
         // Adicionando os navios no tabuleiro
-        tabuleiro[0][0] = 3; // Navio 1
+        tabuleiro[0][2] = 3; // Navio 1
         tabuleiro[1][0] = 3; // Navio 1
-        tabuleiro[2][0] = 3; // Navio 1
-        tabuleiro[7][5] = 3; // Navio 2
-        tabuleiro[7][6] = 3; // Navio 2
-        tabuleiro[7][7] = 3; // Navio 2
-        tabuleiro[1][1] = 3; // Navio 3
-        tabuleiro[2][2] = 3; // Navio 3
-        tabuleiro[3][3] = 3; // Navio 3
-        tabuleiro[9][0] = 3; // Navio 4
-        tabuleiro[8][1] = 3; // Navio 4
-        tabuleiro[7][2] = 3; // Navio 4  
+        tabuleiro[1][1] = 3; // Navio 1
+        tabuleiro[1][2] = 3; // Navio 1
+        tabuleiro[1][3] = 3; // Navio 1
+        tabuleiro[1][4] = 3; // Navio 1
+        tabuleiro[2][2] = 3; // Navio 1 
+        tabuleiro[0][7] = 3; // Navio 2
+        tabuleiro[1][6] = 3; // Navio 2
+        tabuleiro[1][7] = 3; // Navio 2
+        tabuleiro[1][8] = 3; // Navio 2
+        tabuleiro[2][7] = 3; // Navio 2
+        tabuleiro[4][2] = 3; // Navio 3
+        tabuleiro[5][1] = 3; // Navio 3
+        tabuleiro[5][2] = 3; // Navio 3
+        tabuleiro[5][3] = 3; // Navio 3
+        tabuleiro[6][0] = 3; // Navio 3
+        tabuleiro[6][1] = 3; // Navio 3
+        tabuleiro[6][2] = 3; // Navio 3
+        tabuleiro[6][3] = 3; // Navio 3
+        tabuleiro[6][4] = 3; // Navio 3  
 
         // Exibindo o tabuleiro
         printf("  0 1 2 3 4 5 6 7 8 9\n");
